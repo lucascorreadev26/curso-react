@@ -1,3 +1,5 @@
+import ReaproveitarComponents from "./ReaproveitarComponents";
+
 const FristFundamentos = () => {
 
     // sintaxe para comentarios de 1 linha, fora do JSX - padrao JS
@@ -11,7 +13,8 @@ const FristFundamentos = () => {
             {/* sintaxe para comentar dentrodo JSX */}
 
             <h1> Fundamentos</h1>
-            <p> Meu Primeiro Component em React</p>
+            <h2> Meu Primeiro Component em React</h2>
+            <ReaproveitarComponents />
         </div>
     )
 }
